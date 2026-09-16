@@ -1049,8 +1049,8 @@ button:focus-visible{
    LOGO USS
    ========================================== */
 .logo-uss img {
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     object-fit: contain;
     display: block;
 }
