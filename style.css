@@ -1445,5 +1445,114 @@ img.logo-uss {
 }
 }
 /*==================================================
+        RESPONSIVE FINAL PARA CELULARES
+==================================================*/
+
+@media (max-width:768px){
+
+    /* Logo USS del encabezado */
+    .logo{
+        width:46px;
+        height:46px;
+    }
+
+    .logo img{
+        width:38px;
+    }
+
+    /* Tamaño del progreso */
+    .progress-card{
+        width:150px;
+        gap:6px;
+    }
+
+    .progress-title{
+        font-size:.58rem;
+    }
+
+    .progress-bar{
+        height:4px;
+    }
+
+    .progress-percent{
+        font-size:.8rem;
+    }
+
+    .credits span{
+        font-size:.68rem;
+    }
+
+    .credits small{
+        font-size:.55rem;
+    }
+
+    /* Leyenda de estados */
+    .estado-leyenda{
+        gap:4px 8px;
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .estado-item{
+        gap:4px;
+        font-size:.58rem;
+    }
+
+    .estado-color{
+        width:8px;
+        height:8px;
+    }
+
+    /* Footer: texto a la izquierda y logos a la derecha */
+    .footer{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:8px;
+        padding:8px 12px;
+    }
+
+    .footer-left{
+        order:1;
+        margin:0;
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+        text-align:left;
+    }
+
+    .footer-right{
+        order:2;
+        margin-left:auto;
+        display:flex;
+        align-items:center;
+        gap:6px;
+    }
+
+    .footer-center{
+        display:none;
+    }
+
+    /* Logo de Instagram */
+    .instagram-logo{
+        width:17px;
+        height:17px;
+        border-radius:4px;
+    }
+
+    .instagram-link{
+        gap:5px;
+        font-size:.7rem;
+    }
+
+    .footer-title{
+        font-size:.58rem;
+    }
+
+    .footer-name{
+        font-size:.72rem;
+    }
+}
+/*==================================================
             FIN DEL ARCHIVO
 ==================================================*/
