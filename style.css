@@ -1270,11 +1270,11 @@ img.logo-uss {
     .progress-card{
         width:150px;
         flex:1 1 150px;
-        gap:6px;
+        gap:5px;
     }
 
     .progress-title{
-        font-size:.53rem;
+        font-size:.48rem;
     }
 
     .progress-bar{
@@ -1282,15 +1282,15 @@ img.logo-uss {
     }
 
     .progress-percent{
-        font-size:.75rem;
+        font-size:.65rem;
     }
 
     .credits span{
-        font-size:.63rem;
+        font-size:.58rem;
     }
 
     .credits small{
-        font-size:.5rem;
+        font-size:.45rem;
     }
 
     .estado-leyenda{
