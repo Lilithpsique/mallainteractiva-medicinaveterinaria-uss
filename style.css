@@ -1119,17 +1119,17 @@ img.logo-uss {
     }
 
     .title h1 {
-        font-size: 1.05rem;
+        font-size: 1rem;
         line-height: 1.2;
     }
 
     .title h2 {
-        font-size: .85rem;
+        font-size: .8rem;
         line-height: 1.2;
     }
 
     .title p {
-        font-size: .7rem;
+        font-size: .65rem;
         margin-top: 3px;
     }
 
@@ -1152,15 +1152,15 @@ img.logo-uss {
     }
 
     .progress-title {
-        font-size: .7rem;
+        font-size: .65rem;
     }
 
     .progress-percent {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
     .credits span {
-        font-size: .78rem;
+        font-size: .73rem;
     }
 
     /* Navegación de vías desplazable horizontalmente */
@@ -1174,12 +1174,12 @@ img.logo-uss {
     }
 
     .titulo-vias {
-        font-size: .75rem;
+        font-size: .70rem;
         flex-shrink: 0;
     }
 
     .via {
-        font-size: .78rem;
+        font-size: .73rem;
         padding: 7px 4px;
         flex-shrink: 0;
     }
@@ -1245,7 +1245,7 @@ img.logo-uss {
         position: static;
         transform: none;
         white-space: normal;
-        font-size: .65rem;
+        font-size: .60rem;
         line-height: 1.4;
         order: 3;
     }
@@ -1263,15 +1263,15 @@ img.logo-uss {
     }
 
     .title h1 {
-        font-size: .95rem;
+        font-size: .9rem;
     }
 
     .title h2 {
-        font-size: .78rem;
+        font-size: .73rem;
     }
 
     .title p {
-        font-size: .65rem;
+        font-size: .6rem;
     }
 
     .curriculum-grid {
@@ -1289,7 +1289,7 @@ img.logo-uss {
     }
 
     .footer-name {
-        font-size: .8rem;
+        font-size: .75rem;
     }
 }
 
