@@ -1253,6 +1253,48 @@ img.logo-uss {
     .footer-right {
         margin: 0;
     }
+  @media (max-width: 768px) {
+
+    .progress-card{
+        width: 160px;
+        gap: 6px;
+    }
+
+    .progress-title{
+        font-size: .58rem;
+    }
+
+    .progress-bar{
+        height: 4px;
+    }
+
+    .progress-percent{
+        font-size: .8rem;
+    }
+
+    .credits span{
+        font-size: .68rem;
+    }
+
+    .credits small{
+        font-size: .55rem;
+    }
+
+    .estado-leyenda{
+        gap: 4px 8px;
+        margin-right: 8px;
+    }
+
+    .estado-item{
+        gap: 4px;
+        font-size: .58rem;
+    }
+
+    .estado-color{
+        width: 8px;
+        height: 8px;
+    }
+}
 }
 
 /* Celulares pequeños */
