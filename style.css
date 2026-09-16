@@ -1105,8 +1105,8 @@ img.logo-uss {
     }
 
     .logo {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         border-radius: 10px;
     }
 
@@ -1233,7 +1233,7 @@ img.logo-uss {
     .footer {
         flex-direction: column;
         gap: 8px;
-        padding: 12px 16px;
+        padding: 10px 16px;
         text-align: center;
     }
 
@@ -1245,7 +1245,7 @@ img.logo-uss {
         position: static;
         transform: none;
         white-space: normal;
-        font-size: .50rem;
+        font-size: .40rem;
         line-height: 1.4;
         order: 3;
     }
@@ -1348,7 +1348,7 @@ img.logo-uss {
     }
 
     .footer-name {
-        font-size: .65rem;
+        font-size: .55rem;
     }
 }
 
