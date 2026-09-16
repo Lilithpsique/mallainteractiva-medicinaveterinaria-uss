@@ -1253,46 +1253,63 @@ img.logo-uss {
     .footer-right {
         margin: 0;
     }
-  @media (max-width: 768px) {
+ @media (max-width:768px){
+
+    .header{
+        flex-direction:row;
+        flex-wrap:wrap;
+        align-items:center;
+        gap:10px;
+        padding:8px 12px;
+    }
+
+    .header-left{
+        width:100%;
+    }
 
     .progress-card{
-        width: 160px;
-        gap: 6px;
+        width:150px;
+        flex:1 1 150px;
+        gap:6px;
     }
 
     .progress-title{
-        font-size: .58rem;
+        font-size:.58rem;
     }
 
     .progress-bar{
-        height: 4px;
+        height:4px;
     }
 
     .progress-percent{
-        font-size: .8rem;
+        font-size:.8rem;
     }
 
     .credits span{
-        font-size: .68rem;
+        font-size:.68rem;
     }
 
     .credits small{
-        font-size: .55rem;
+        font-size:.55rem;
     }
 
     .estado-leyenda{
-        gap: 4px 8px;
-        margin-right: 8px;
+        display:grid;
+        grid-template-columns:repeat(2, auto);
+        gap:4px 8px;
+        margin-left:0;
+        margin-right:0;
+        flex:1 1 150px;
     }
 
     .estado-item{
-        gap: 4px;
-        font-size: .58rem;
+        gap:4px;
+        font-size:.58rem;
     }
 
     .estado-color{
-        width: 8px;
-        height: 8px;
+        width:8px;
+        height:8px;
     }
 }
 }
