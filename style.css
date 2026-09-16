@@ -1105,8 +1105,8 @@ img.logo-uss {
     }
 
     .logo {
-        width: 52px;
-        height: 52px;
+        width: 50px;
+        height: 50px;
         border-radius: 10px;
     }
 
@@ -1119,17 +1119,17 @@ img.logo-uss {
     }
 
     .title h1 {
-        font-size: 1rem;
+        font-size: .9rem;
         line-height: 1.2;
     }
 
     .title h2 {
-        font-size: .8rem;
+        font-size: .7rem;
         line-height: 1.2;
     }
 
     .title p {
-        font-size: .65rem;
+        font-size: .55rem;
         margin-top: 3px;
     }
 
@@ -1142,7 +1142,7 @@ img.logo-uss {
     }
 
     .estado-item {
-        font-size: .7rem;
+        font-size: .6rem;
     }
 
     /* Progreso ocupa todo el ancho */
@@ -1152,15 +1152,15 @@ img.logo-uss {
     }
 
     .progress-title {
-        font-size: 0.65rem;
+        font-size: 0.55rem;
     }
 
     .progress-percent {
-        font-size: 0.65rem;
+        font-size: 0.55rem;
     }
 
     .credits span {
-        font-size: 0.65rem;
+        font-size: 0.55rem;
     }
 
     /* Navegación de vías desplazable horizontalmente */
@@ -1174,12 +1174,12 @@ img.logo-uss {
     }
 
     .titulo-vias {
-        font-size: .65rem;
+        font-size: .55rem;
         flex-shrink: 0;
     }
 
     .via {
-        font-size: .68rem;
+        font-size: .58rem;
         padding: 7px 4px;
         flex-shrink: 0;
     }
@@ -1245,7 +1245,7 @@ img.logo-uss {
         position: static;
         transform: none;
         white-space: normal;
-        font-size: .60rem;
+        font-size: .50rem;
         line-height: 1.4;
         order: 3;
     }
@@ -1274,23 +1274,23 @@ img.logo-uss {
     }
 
     .progress-title{
-        font-size:.48rem;
+        font-size:.38rem;
     }
 
     .progress-bar{
-        height:4px;
+        height:3px;
     }
 
     .progress-percent{
-        font-size:.65rem;
+        font-size:.55rem;
     }
 
     .credits span{
-        font-size:.58rem;
+        font-size:.48rem;
     }
 
     .credits small{
-        font-size:.45rem;
+        font-size:.35rem;
     }
 
     .estado-leyenda{
@@ -1304,7 +1304,7 @@ img.logo-uss {
 
     .estado-item{
         gap:4px;
-        font-size:.58rem;
+        font-size:.48rem;
     }
 
     .estado-color{
@@ -1322,15 +1322,15 @@ img.logo-uss {
     }
 
     .title h1 {
-        font-size: .85rem;
+        font-size: .75rem;
     }
 
     .title h2 {
-        font-size: .68rem;
+        font-size: .58rem;
     }
 
     .title p {
-        font-size: .55rem;
+        font-size: .45rem;
     }
 
     .curriculum-grid {
@@ -1348,7 +1348,7 @@ img.logo-uss {
     }
 
     .footer-name {
-        font-size: .75rem;
+        font-size: .65rem;
     }
 }
 
