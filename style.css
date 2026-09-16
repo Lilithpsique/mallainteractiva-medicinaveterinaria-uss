@@ -1048,9 +1048,9 @@ button:focus-visible{
 /* ==========================================
    LOGO USS
    ========================================== */
-.logo-uss img {
-    width: 5px;
-    height: 5px;
+.logo-uss {
+    width: 24px;
+    height: 24px;
     object-fit: contain;
     display: block;
 }
