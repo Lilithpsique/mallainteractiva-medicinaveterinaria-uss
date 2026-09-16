@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Malla Curricular Interactiva | Medicina Veterinaria USS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="header-left">
+
+        <div class="logo">
+            <img src="Logo 2.png" alt="Logo de Lilith psique">
+        </div>
+
+        <div class="title">
+
+            <h1>Malla Curricular Interactiva</h1>
+
+            <h2>Medicina Veterinaria USS</h2>
+
+            <p>Universidad San Sebastián</p>
+
+        </div>
+
+    </div>
+
+<div class="estado-leyenda">
+
+    <div class="estado-item">
+        <span class="estado-color disponible"></span>
+        Disponible
+    </div>
+
+    <div class="estado-item">
+        <span class="estado-color cursando"></span>
+        Cursando
+    </div>
+
+    <div class="estado-item">
+        <span class="estado-color aprobado"></span>
+        Aprobado
+    </div>
+
+    <div class="estado-item">
+        <span class="estado-color bloqueado"></span>
+        Bloqueado
+    </div>
+
+</div>
+
+    <div class="progress-card">
+
+        <span class="progress-title">
+            PROGRESO ACADÉMICO
+        </span>
+
+        <div class="progress-bar">
+
+            <div
+                class="progress-fill"
+                id="progressFill">
+            </div>
+
+        </div>
+
+        <div class="progress-info">
+
+            <span
+                id="progressText"
+                class="progress-percent">
+
+                0%
+
+            </span>
+
+            <div class="credits">
+
+                <span id="creditosAprobados">0</span>
+
+                <span>/</span>
+
+                <span id="creditosTotales">300</span>
+
+                <span>SCT</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<nav class="vias-titulacion">
+
+    <span class="titulo-vias">
+        VÍA DE TITULACIÓN:
+    </span>
+
+    <button
+        class="via"
+        data-via="practica">
+
+        Vía A: Práctica Avanzada
+
+    </button>
+
+    <button
+        class="via"
+        data-via="internado">
+
+        Vía B: Internado Clínico
+
+    </button>
+
+    <button
+        class="via active"
+        data-via="tesina">
+
+        Vía C: Tesina
+
+    </button>
+
+</nav>
+
+<main>
+
+    <div class="curriculum-wrapper">
+
+        <svg id="arrowLayer"></svg>
+
+        <div class="curriculum-grid">
+
+        <section class="semester">
+            <div class="semester-header">SEMESTRE I</div>
+            <div class="subjects" id="semester1"></div>
+        </section>
+
+        <section class="semester">
+            <div class="semester-header">SEMESTRE II</div>
+            <div class="subjects" id="semester2"></div>
+        </section>
+
+        <section class="semester">
+            <div class="semester-header">SEMESTRE III</div>
+            <div class="subjects" id="semester3"></div>
+        </section>
+
+        <section class="semester">
+            <div class="semester-header">SEMESTRE IV</div>
+            <div class="subjects" id="semester4"></div>
+        </section>
+
+        <section class="semester">
+            <div class="semester-header">SEMESTRE V</div>
+            <div class="subjects" id="semester5"></div>
+        </section>
+
+        <section class="semester">
+            <div class="semester-header">SEMESTRE VI</div>
+            <div class="subjects" id="semester6"></div>
+        </section>
+
+        <section class="semester">
+            <div class="semester-header">SEMESTRE VII</div>
+            <div class="subjects" id="semester7"></div>
+        </section>
+
+        <section class="semester">
+            <div class="semester-header">SEMESTRE VIII</div>
+            <div class="subjects" id="semester8"></div>
+        </section>
+
+        <section class="semester">
+            <div class="semester-header">SEMESTRE IX</div>
+            <div class="subjects" id="semester9"></div>
+        </section>
+
+        <section class="semester">
+            <div class="semester-header">SEMESTRE X</div>
+            <div class="subjects" id="semester10"></div>
+        </section>
+
+    </div>
+
+</div>
+
+</main>
+
+<div id="tooltip" class="tooltip"></div>
+
+<footer class="footer">
+
+    <div class="footer-left">
+
+        <span class="footer-title">
+            Diseño y desarrollo
+        </span>
+
+        <span class="footer-name">
+            Clau García González
+        </span>
+
+    </div>
+
+    <div class="footer-center">
+
+        Proyecto personal con fines académicos. No corresponde a información oficial de la Universidad San Sebastián.
+
+    </div>
+
+    <div class="footer-right">
+
+    <a class="instagram-link"
+       href="https://www.instagram.com/vet_lilith_psique?igsh=cHJldHFucW5ndG93"
+       target="_blank">
+
+        <img class="instagram-logo"
+             src="instagram logo.jpeg"
+             alt="Instagram">
+
+        <span>Vet_lilith_psique</span>
+
+    </a>
+
+</div>
+
+</footer>
+
+<script src="malla.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
