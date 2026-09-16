@@ -1152,15 +1152,15 @@ img.logo-uss {
     }
 
     .progress-title {
-        font-size: .65rem;
+        font-size: 0.65rem;
     }
 
     .progress-percent {
-        font-size: 0.95rem;
+        font-size: 0.65rem;
     }
 
     .credits span {
-        font-size: .73rem;
+        font-size: 0.65rem;
     }
 
     /* Navegación de vías desplazable horizontalmente */
