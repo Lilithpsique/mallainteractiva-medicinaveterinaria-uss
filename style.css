@@ -1366,6 +1366,35 @@ img.logo-uss {
         opacity: 1;
     }
 }
+
+@media (max-width:768px){
+
+    .logo{
+        width:46px;
+        height:46px;
+    }
+
+    .logo img{
+        width:38px;
+    }
+
+    .instagram-logo{
+        width:17px;
+        height:17px;
+        border-radius:4px;
+    }
+
+    .instagram-link{
+        gap:5px;
+        font-size:.7rem;
+    }
+
+    .footer-right{
+        gap:5px;
+        font-size:.7rem;
+    }
+
+}
 /*==================================================
             FIN DEL ARCHIVO
 ==================================================*/
