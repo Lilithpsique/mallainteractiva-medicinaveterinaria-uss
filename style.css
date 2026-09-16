@@ -1,0 +1,1052 @@
+/*==================================================
+                    VARIABLES
+==================================================*/
+
+:root{
+
+    --uss-blue:#003C71;
+    --uss-gold:#C9A227;
+
+    --white:#FFFFFF;
+    --background:#F5F7FA;
+
+    --shadow:0 10px 30px rgba(0,0,0,.10);
+
+}
+
+/*==================================================
+                    GENERAL
+==================================================*/
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+
+    height:100%;
+
+}
+
+body{
+
+    font-family:"Inter",sans-serif;
+    background:var(--background);
+
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    overflow-x:hidden;
+
+}
+
+/*==================================================
+                    HEADER
+==================================================*/
+
+.header{
+
+    background:var(--uss-blue);
+
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:8px 24px;
+
+    box-shadow:var(--shadow);
+
+    z-index:10;
+
+}
+
+.header-left{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+}
+
+.logo{
+
+    width:70px;
+    height:70px;
+
+    border-radius:14px;
+
+    background:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    flex-shrink:0;
+
+}
+
+.logo img{
+
+    width:62px;
+    height:auto;
+
+}
+
+.title{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+
+.title h1{
+
+    font-size:1.55rem;
+    font-weight:700;
+
+}
+
+.title h2{
+
+    margin-top:2px;
+
+    font-size:1.1rem;
+    font-weight:600;
+
+}
+
+.title p{
+
+    margin-top:4px;
+
+    font-size:.8rem;
+    opacity:.8;
+
+}
+
+/*==================================================
+                TARJETA PROGRESO
+==================================================*/
+
+.progress-card{
+
+    width:280px;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+.progress-title{
+
+    font-size:.75rem;
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+    opacity:.9;
+
+}
+
+.progress-bar{
+
+    width:100%;
+    height:8px;
+
+    background:rgba(255,255,255,.20);
+
+    border-radius:999px;
+
+    overflow:hidden;
+
+}
+
+.progress-fill{
+
+    width:0%;
+
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        #C9A227,
+        #E8C65B
+    );
+
+    border-radius:999px;
+
+    transition:width .35s ease;
+
+}
+
+.progress-info{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.progress-percent{
+
+    color:white;
+
+    font-size:1.15rem;
+    font-weight:700;
+
+}
+
+.credits{
+
+    display:flex;
+    align-items:center;
+
+    gap:4px;
+
+    color:white;
+
+}
+
+.credits span{
+
+    font-size:.9rem;
+    font-weight:600;
+
+}
+
+.credits small{
+
+    font-size:.75rem;
+    opacity:.85;
+
+}
+/*==================================================
+                    MAIN
+==================================================*/
+
+main{
+
+    flex:1;
+
+    overflow:hidden;
+
+    display:flex;
+    flex-direction:column;
+
+}
+
+/*==================================================
+                MALLA
+==================================================*/
+
+.curriculum-grid{
+
+    display:flex;
+
+    gap:30px;
+
+    align-items:flex-start;
+
+    overflow-x:auto;
+    overflow-y:hidden;
+
+    flex:1;
+
+    padding:20px 30px;
+
+    scrollbar-width:thin;
+
+    scrollbar-color:var(--uss-blue) transparent;
+
+}
+
+.curriculum-grid::-webkit-scrollbar{
+
+    height:10px;
+
+}
+
+.curriculum-grid::-webkit-scrollbar-track{
+
+    background:transparent;
+
+}
+
+.curriculum-grid::-webkit-scrollbar-thumb{
+
+    background:var(--uss-blue);
+
+    border-radius:999px;
+
+}
+
+/*==================================================
+                SEMESTRES
+==================================================*/
+
+.semester{
+
+    width:250px;
+
+    flex-shrink:0;
+
+    background:white;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.semester-header{
+
+    background:var(--uss-blue);
+
+    color:white;
+
+    text-align:center;
+
+    padding:8px;
+
+    font-size:.72rem;
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+}
+
+.subjects{
+
+    padding:14px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+}
+
+/*==================================================
+                    RAMOS
+==================================================*/
+
+.subject{
+
+    width:100%;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:12px 12px;
+
+    cursor:pointer;
+
+    text-align:left;
+
+    font-family:"Inter",sans-serif;
+
+    font-size:.72rem;
+
+    line-height:1.35;
+
+    transition:
+        transform .2s,
+        box-shadow .2s,
+        background .25s;
+
+    white-space:normal;
+
+    word-break:break-word;
+
+    padding-right: 30px;
+
+}
+
+.subject:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/*==================================================
+            ESTADOS DE LOS RAMOS
+==================================================*/
+
+/* Disponible */
+
+.pending{
+
+    background:#BFE7B2;
+
+    color:#215126;
+
+}
+
+.pending:hover{
+
+    box-shadow:0 10px 22px rgba(50,120,50,.25);
+
+}
+
+/* Cursando */
+
+.current{
+
+    background:var(--uss-blue);
+
+    color:white;
+
+}
+
+.current:hover{
+
+    box-shadow:0 10px 22px rgba(0,60,113,.35);
+
+}
+
+/* Aprobado */
+
+.approved{
+
+    background:linear-gradient(
+        135deg,
+        #C9A227,
+        #E8C65B
+    );
+
+    color:white;
+
+    font-weight:600;
+
+}
+
+.approved:hover{
+
+    box-shadow:0 10px 22px rgba(201,162,39,.35);
+
+}
+
+/* Bloqueado */
+
+.locked{
+
+    background:#d6d6d6;
+
+    color:#777;
+
+    cursor:not-allowed;
+
+    opacity:.85;
+
+}
+
+.locked:hover{
+
+    transform:none;
+
+    box-shadow:none;
+
+}
+/*==================================================
+            VÍAS DE TITULACIÓN
+==================================================*/
+
+.vias-titulacion{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:28px;
+
+    padding:14px 24px;
+
+    background:white;
+
+    border-bottom:1px solid #dcdcdc;
+
+    flex-wrap:wrap;
+
+}
+
+.titulo-vias{
+
+    font-weight:700;
+
+    color:var(--uss-blue);
+
+    letter-spacing:.4px;
+
+}
+
+.via{
+
+    background:none;
+
+    border:none;
+
+    cursor:pointer;
+
+    padding:5px 6px;
+
+    font-size:.9rem;
+
+    color:#555;
+
+    border-bottom:3px solid transparent;
+
+    transition:.25s;
+
+}
+
+.via:hover{
+
+    color:var(--uss-blue);
+
+}
+
+.via.active{
+
+    color:var(--uss-blue);
+
+    font-weight:700;
+
+    border-bottom:3px solid var(--uss-blue);
+
+}
+
+
+/*==================================================
+                    TOOLTIP
+==================================================*/
+
+.tooltip{
+
+    position:fixed;
+
+    display:none;
+
+    background:white;
+
+    color:#333;
+
+    border:2px solid var(--uss-blue);
+
+    border-radius:12px;
+
+    padding:10px 14px;
+
+    min-width:190px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.18);
+
+    pointer-events:none;
+
+    z-index:9999;
+
+    font-size:.75rem;
+
+    line-height:1.5;
+
+}
+
+.tooltip strong{
+
+    display:block;
+
+    margin-bottom:4px;
+
+    color:var(--uss-blue);
+
+    font-size:.82rem;
+
+}
+
+/*==================================================
+                    FOOTER
+==================================================*/
+
+.footer{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:8px 18px;
+
+    background:var(--uss-blue);
+
+    color:white;
+
+    border-top:2px solid rgba(255,255,255,.15);
+
+    flex-shrink:0;
+
+    position:relative;
+
+}
+
+.footer-center{
+
+    position:absolute;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    font-size:.70rem;
+
+    opacity:.9;
+
+    white-space:nowrap;
+
+}
+
+.footer-left{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    gap:2px;
+
+}
+
+.footer-right{
+
+    margin-left:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+}
+
+.instagram-logo{
+
+    width:24px;
+
+    height:24px;
+
+    border-radius: 6px;
+
+    object-fit:cover;
+
+}
+
+.instagram-link{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:white;
+
+    text-decoration:none;
+
+}
+
+.instagram-link:hover{
+
+    opacity:.8;
+
+}
+
+.footer-title{
+
+    color:rgba(255,255,255,.75);
+
+    font-size:.70rem;
+
+}
+
+.footer-name{
+
+    color:white;
+
+    font-size:.92rem;
+
+    font-weight:700;
+
+}
+/*==================================================
+            ANIMACIONES
+==================================================*/
+
+.subject{
+
+    transition:
+        transform .20s ease,
+        box-shadow .20s ease,
+        background .25s ease,
+        color .25s ease;
+
+}
+
+.subject:not(.locked):hover{
+
+    transform:translateY(-3px);
+
+}
+
+.subject:active{
+
+    transform:scale(.98);
+
+}
+
+/*==================================================
+            SCROLL HORIZONTAL
+==================================================*/
+
+.curriculum-grid{
+
+    scroll-behavior:smooth;
+
+}
+
+/*==================================================
+            SELECCIÓN DE TEXTO
+==================================================*/
+
+::selection{
+
+    background:var(--uss-blue);
+
+    color:white;
+
+}
+
+/*==================================================
+            ENFOQUE ACCESIBILIDAD
+==================================================*/
+
+button:focus-visible{
+
+    outline:3px solid rgba(0,60,113,.35);
+
+    outline-offset:3px;
+
+}
+
+/*==================================================
+            RESPONSIVE
+==================================================*/
+
+@media (max-width:1200px){
+
+    .header{
+
+        flex-direction:column;
+
+        gap:18px;
+
+        align-items:flex-start;
+
+    }
+
+    .progress-card{
+
+        width:100%;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .logo{
+
+        width:58px;
+        height:58px;
+
+    }
+
+    .logo img{
+
+        width:50px;
+
+    }
+
+    .title h1{
+
+        font-size:1.2rem;
+
+    }
+
+    .title h2{
+
+        font-size:.95rem;
+
+    }
+
+    .semester{
+
+        width:220px;
+
+    }
+
+    .vias-titulacion{
+
+        gap:12px;
+
+    }
+
+    .via{
+
+        font-size:.8rem;
+
+    }
+
+}
+
+/*==================================================
+            LEYENDA DE ESTADOS
+==================================================*/
+
+.estado-leyenda{
+
+    display:grid;
+
+    grid-template-columns:repeat(2, auto);
+
+    gap:8px 20px;
+
+    margin-left:auto;
+    margin-right:35px;
+
+}
+
+.estado-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:6px;
+
+    color:white;
+
+    font-size:.75rem;
+
+    font-weight:500;
+
+}
+
+.estado-color{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:3px;
+
+}
+
+.estado-color.disponible{
+
+    background:#BFE7B2;
+
+}
+
+.estado-color.cursando{
+
+    background:var(--uss-blue);
+
+    border:1px solid rgba(255,255,255,.45);
+
+}
+
+.estado-color.aprobado{
+
+    background:#C9A227;
+
+}
+
+.estado-color.bloqueado{
+
+    background:#D6D6D6;
+
+}
+
+/*==================================================
+            CONTENEDOR DEL RAMO
+==================================================*/
+
+.subject-container{
+    position:relative;
+    width:100%;
+
+    background:white;
+    border-radius:12px;
+    padding:6px;
+
+    box-sizing:border-box;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.10);
+}
+
+/*==================================================
+            BOTÓN EXPLORAR
+==================================================*/
+
+.info-button{
+
+    position:absolute;
+
+    top:8px;
+
+    right:8px;
+
+    width:22px;
+
+    height:22px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.25);
+
+    color:white;
+
+    font-size:.70rem;
+
+    cursor:pointer;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    opacity:0;
+
+    transition:.25s;
+
+}
+
+.subject-container:hover .info-button{
+
+    opacity:1;
+
+}
+
+.info-button:hover{
+
+    background:white;
+
+    color:var(--uss-blue);
+
+}
+
+.subject-container{
+    position: relative;
+    display: flex;
+}
+
+.subject-search{
+    position: absolute;
+
+    top: 50%;
+    right: 10px;
+
+    transform: translateY(-50%);
+
+    width: 22px;
+    height: 22px;
+
+    border: none;
+    background: transparent;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    z-index: 999;
+}
+
+.subject-search:hover{
+    transform: scale(1.08);
+}
+
+/*==================================================
+            CAPA DE FLECHAS
+==================================================*/
+
+.curriculum-wrapper{
+
+    position:relative;
+
+    flex:1;
+
+    overflow:hidden;
+
+}
+
+#arrowLayer{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+    height:100%;
+
+    pointer-events:none;
+
+    overflow:visible;
+
+    z-index:2;
+
+}
+
+.curriculum-grid{
+
+    position:relative;
+
+    z-index:1;
+
+}
+
+/* ==========================================
+   BLOQUES INDIVIDUALES DE CADA RAMO
+   ========================================== */
+.subject-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+
+/*==================================================
+            FIN DEL ARCHIVO
+==================================================*/

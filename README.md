@@ -1,1 +1,0 @@
-# mallainteractiva-medicinaveterinaria-uss
