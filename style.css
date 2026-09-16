@@ -1394,6 +1394,55 @@ img.logo-uss {
         font-size:.7rem;
     }
 
+  @media (max-width:768px){
+
+    .footer{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:8px;
+        padding:8px 12px;
+    }
+
+    .footer-left{
+        order:1;
+        margin:0;
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .footer-right{
+        order:2;
+        margin-left:auto;
+        display:flex;
+        align-items:center;
+        gap:6px;
+    }
+
+    .footer-center{
+        display:none;
+    }
+
+    .logo{
+        width:46px;
+        height:46px;
+    }
+
+    .logo img{
+        width:38px;
+    }
+
+    .instagram-logo{
+        width:17px;
+        height:17px;
+        border-radius:4px;
+    }
+
+    .instagram-link{
+        gap:5px;
+    }
+}
 }
 /*==================================================
             FIN DEL ARCHIVO
