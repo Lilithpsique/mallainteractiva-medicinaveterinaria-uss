@@ -1105,13 +1105,13 @@ img.logo-uss {
     }
 
     .logo {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         border-radius: 10px;
     }
 
     .logo img {
-        width: 40px;
+        width: 30px;
     }
 
     .title {
