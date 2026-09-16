@@ -1045,8 +1045,15 @@ button:focus-visible{
     width: 100%;
     margin-bottom: 2px;
 }
-
-
+/* ==========================================
+   LOGO USS
+   ========================================== */
+.logo-uss img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    display: block;
+}
 /*==================================================
             FIN DEL ARCHIVO
 ==================================================*/
