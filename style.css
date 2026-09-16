@@ -1048,11 +1048,13 @@ button:focus-visible{
 /* ==========================================
    LOGO USS
    ========================================== */
-.logo-uss{
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-    display: block;
+img.logo-uss {
+    width: 24px !important;
+    height: 24px !important;
+    max-width: 24px !important;
+    max-height: 24px !important;
+    object-fit: contain !important;
+    display: block !important;
 }
 /*==================================================
             FIN DEL ARCHIVO
