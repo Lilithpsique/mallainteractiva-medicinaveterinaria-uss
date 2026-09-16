@@ -1174,12 +1174,12 @@ img.logo-uss {
     }
 
     .titulo-vias {
-        font-size: .70rem;
+        font-size: .65rem;
         flex-shrink: 0;
     }
 
     .via {
-        font-size: .73rem;
+        font-size: .68rem;
         padding: 7px 4px;
         flex-shrink: 0;
     }
@@ -1274,7 +1274,7 @@ img.logo-uss {
     }
 
     .progress-title{
-        font-size:.58rem;
+        font-size:.53rem;
     }
 
     .progress-bar{
@@ -1282,15 +1282,15 @@ img.logo-uss {
     }
 
     .progress-percent{
-        font-size:.8rem;
+        font-size:.75rem;
     }
 
     .credits span{
-        font-size:.68rem;
+        font-size:.63rem;
     }
 
     .credits small{
-        font-size:.55rem;
+        font-size:.5rem;
     }
 
     .estado-leyenda{
@@ -1318,19 +1318,19 @@ img.logo-uss {
 @media (max-width: 420px) {
 
     .header {
-        padding: 12px;
+        padding: 10px;
     }
 
     .title h1 {
-        font-size: .9rem;
+        font-size: .85rem;
     }
 
     .title h2 {
-        font-size: .73rem;
+        font-size: .68rem;
     }
 
     .title p {
-        font-size: .6rem;
+        font-size: .55rem;
     }
 
     .curriculum-grid {
@@ -1343,8 +1343,8 @@ img.logo-uss {
     }
 
     .vias-titulacion {
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .footer-name {
