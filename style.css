@@ -1366,7 +1366,22 @@ img.logo-uss {
         opacity: 1;
     }
 }
+@media (max-width: 768px) {
+    main {
+        flex: 0 0 auto;
+        overflow: visible;
+    }
 
+    .curriculum-grid {
+        flex: 0 0 auto;
+        padding: 12px 16px 0;
+        overflow-y: hidden;
+    }
+
+    .footer {
+        margin-top: 0;
+    }
+}
 /*==================================================
             FIN DEL ARCHIVO
 ==================================================*/
