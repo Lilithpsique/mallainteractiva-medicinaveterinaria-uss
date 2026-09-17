@@ -1167,8 +1167,8 @@ img.logo-uss {
     .vias-titulacion {
         flex-wrap: nowrap;
         overflow-x: auto;
-        gap: 10px;
-        padding: 10px 16px;
+        gap: 8px;
+        padding: 8px 16px;
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
     }
@@ -1186,19 +1186,19 @@ img.logo-uss {
 
     /* Malla curricular */
     .curriculum-grid {
-        gap: 14px;
-        padding: 14px 16px 22px;
+        gap: 12px;
+        padding: 12px 16px 22px;
         align-items: flex-start;
     }
 
     .semester {
         width: 220px;
-        border-radius: 14px;
+        border-radius: 12px;
     }
 
     .semester-header {
         padding: 10px 8px;
-        font-size: .7rem;
+        font-size: .6rem;
     }
 
     .subjects {
@@ -1209,7 +1209,7 @@ img.logo-uss {
     .subject {
         min-height: 52px;
         padding: 12px 30px 12px 10px;
-        font-size: .7rem;
+        font-size: .6rem;
         line-height: 1.35;
     }
 
