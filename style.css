@@ -1366,6 +1366,18 @@ img.logo-uss {
         opacity: 1;
     }
 }
+
+@media (max-width: 768px) {
+    .subject {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        line-height: 1.15;
+    }
+
+    .subject-container {
+        padding: 2px;
+    }
+}
 /*==================================================
             FIN DEL ARCHIVO
 ==================================================*/
