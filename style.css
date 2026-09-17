@@ -1367,22 +1367,6 @@ img.logo-uss {
     }
 }
 
-@media (max-width: 768px) {
-    .subject {
-        padding-top: 4px;
-        padding-bottom: 4px;
-        line-height: 1.15;
-    }
-
-    .subject-container {
-        padding: 2px;
-    }
-}
-@media (max-width: 768px) {
-    .curriculum-grid{
-        padding: 8px 16px 0;
-    }
-}
 /*==================================================
             FIN DEL ARCHIVO
 ==================================================*/
